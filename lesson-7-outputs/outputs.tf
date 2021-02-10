@@ -1,5 +1,6 @@
 output "webserver_instance_id" {
   value = aws_instance.my_webserver.id
+  description = "This is description"
 }
 
 output "webserver_instance_public_ip" {
