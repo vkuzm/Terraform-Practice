@@ -5,7 +5,7 @@ yum -y install httpd
 myip=`curl http://169.254.169.254/latest/meta-data/local-ipv4`
 cat <<EOF > /var/www/html/index.html
 <html>
-<h2>Build by Terraform</h2>
+<h2>Build by Terraform with new text</h2>
 <br>
 Owher: ${f_name} ${l_name}<br><br>
 
